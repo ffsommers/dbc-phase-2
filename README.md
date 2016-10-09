@@ -1,10 +1,10 @@
 # Features
 
   Research
-    - helpers
-    - partials
-    - hosting
-    - api useage and key hiding
+    # helpers
+    # partials
+    # hosting
+    # api useage and key hiding
 
   User Auth
     - Log in
