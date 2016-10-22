@@ -7,6 +7,24 @@
 #### If you know you are not getting something, schedule office hours.
 #### If you think you get everything and feel that you have mastered. something, schedule office hours and prove it.
 
+#### Questions and BOBOLINKS Cohort Wishlist:
+- What is a js object in the console and what to do with it?
+- Event delegation more emphasis
+- JS and AR drills
+- The pertest email with the examples were key for the needed core skills.
+- Workflow
+- Live coding examples (crud and routes perhaps in the passion project)
+- Office hours were too clustered and not enough one on ones
+- Review of a harder challenge from the day before in the AM
+- API skills
+- Heroku
+- REST concepts
+- Schema associations validations
+- Error messages / status and handeling
+- Too much time on passion project issues
+- Not to keep redoing what you are strong in
+- Ask for feedback on the scope and complexity of passion project
+
 
 # OOJS
 ---
@@ -74,6 +92,7 @@
      },
    }
 ```
+#### Work with objects
 - Populate the objects with attributes
   - set all to predefined values
   - set all to passed in arguments
@@ -127,7 +146,7 @@ $(document).ready(function(){
     - set needed info from the listenter as a var and use it
   - .done(function(response){
     do some things here
-  })
+    })
     - What happens here?
     - What information is needed?
       - What is the 'response'?
@@ -164,7 +183,7 @@ $(document).ready(function(){
     - username
     - password
   - sessions
-  - clear the cookies for local host
+  - clear the cookies for local host on window close
 
 #### Helpers
   - Sessions
@@ -201,10 +220,9 @@ $(document).ready(function(){
 ---
 #### MVP
   - Pick an api early and become familiar with the data you can get out of it
-  ## DO NOT PUSH TO GITHUB BEFORE THIS STEP!!!
   - Hide your keys
     - Dotenv gem and .env file usage for all keys used in your app.
-
+## DO NOT PUSH TO GITHUB BEFORE THIS STEP!!!
 
 #### Research & tools
   - Postman: View the api calls in the brower before making the route
@@ -217,6 +235,7 @@ $(document).ready(function(){
 #### Heroku
   - Once you have your git repo, depoly the hello worl app.
   - Push future commits here as well as github
+    - git push heroku master && heroku run rake db:migrate && heroku restart
 
 #### Debugging
   - p out everything in the sinatra controller
@@ -225,17 +244,5 @@ $(document).ready(function(){
   - debugger
   - pry
   - irb
-
-
-
-
-
-
-
-
-
-
-
-
 
 
